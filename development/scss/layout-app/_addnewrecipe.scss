@@ -1,0 +1,152 @@
+.recipes {
+    margin: 70px;
+}
+
+.first-section-recipes p { 
+    font-size: $font-size*2;
+    padding: 10px;
+    margin-top: 5px;
+    width:300px;
+    }
+   
+.recipe {
+    &-new {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 1400px;
+        background-color: white;
+        color: orange;
+        font-size: $font-size*2;
+        border-bottom: 2px solid lightgray;
+        margin-left: 12px;
+        width:100%;
+    }
+    &-name {
+        display: flex;
+        justify-content: space-between;
+        width: 100vw;
+        background-color: white;
+        color: #5B605F;
+        font-size: 20px;
+        padding-left: 10px;
+    }
+    &-button {
+        background-color: #FF6600;
+        margin: 10px;
+        font-size: $font-size ;
+        font-weight: 700;
+        color: #FFFFFA;
+        height: 40px;
+        width: 150px;
+        outline: none;
+        border: 2px solid white;
+        border-radius: 10px;
+        text-align: center;
+    }
+    &-description {
+        display: flex;
+        justify-content: space-between;
+        width: 100vw;
+        background-color: white;
+        color: #5B605F;
+        font-size: 20px;
+        padding-left: 10px;
+        margin-bottom: 10px;
+        input {
+            height: 55px;
+        }
+    }
+}
+
+.recipe-name-value,
+.recipe-description-value {
+    width: 1000px;
+    height: 25px;
+    margin-top: 10px;
+    margin-right: 98px;
+}
+
+
+
+.second-section-recipes {
+    display: flex;
+    p {
+        font-size: 25px;
+        padding: 10px;
+        margin-top: 5px;
+    }
+}
+
+.instructions,
+.components {
+    display: block;
+    width: 700px;
+    background-color: white;
+    color: #5B605F;
+    font-size: 20px;
+    padding-left: 13px;
+    margin-top: 30px;
+
+    .instruction-value,
+    .component-value {
+        height: 50px;
+        width: 440px;
+        margin-left: 20px;
+    }
+}
+
+.underline {
+    width: 500px;
+    border-bottom: 1px solid grey;
+    margin-left: 1px;
+}
+.component-add,
+.instruction-add {
+    display: inline-block;
+    position: relative;
+}
+.component-value-text,
+.instruction-value-text {
+    position: absolute;
+    height: 50px;
+    width: 440px;
+    top: 100px;
+    left: 20px;
+    overflow: auto;
+}
+
+.instruction-plus,
+.component-plus {
+    position: absolute;
+    left: 470px;
+    top: 15px;
+    color: white;
+    background-color: green;
+    border-radius: 20%;
+    height: 30px;
+    width: 30px;
+}
+
+
+//PRZYCISKI EDIT I REMOVE:
+
+// .edit_instruction,
+// .edit_recipe {
+//     background-color: white;
+//     color: orange;
+//     position: absolute;
+//     left: 400px;
+//     top: 105px;
+//     cursor: pointer;
+// }
+
+// .delete_instruction,
+// .delete_recipe {
+//     background-color: white;
+//     color: red;
+//     position: absolute;
+//     left: 430px;
+//     top: 105px;
+//     cursor: pointer;
+// }
