@@ -1,0 +1,26 @@
+{
+  "name": "zaplanuj",
+  "version": "1.0.0",
+  "description": "Front Dev",
+  "main": "index.js",
+  "scripts": {
+    "gulp": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krzysztof14/Zaplanuj.git"
+  },
+  "author": "KP",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/krzysztof14/Zaplanuj/issues"
+  },
+  "homepage": "https://github.com/krzysztof14/Zaplanujo#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.0",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-sourcemaps": "^2.6.4"
+  }
+}
