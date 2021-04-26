@@ -1,0 +1,27 @@
+@import "./config/reset";
+@import "./config/container";
+
+@import "./variables/colors";
+@import "./variables/fonts";
+
+@import "./layout-page/header";
+@import "./layout-page/carousel";
+@import "./layout-page/cta";
+@import "./layout-page/features";
+@import "./layout-page/newsletter";
+@import "./layout-page/aboutme";
+@import "./layout-page/footer";
+
+@import "./layout-app/welcomeForm";
+@import "./layout-app/menu";
+@import "./layout-app/desktop";
+@import "./layout-app/addnewplan";
+@import "./layout-app/addnewrecipe";
+@import "./layout-app/planlist";
+@import "./layout-app/widget";
+
+
+
+
+
+@import "./app-page/app_header";

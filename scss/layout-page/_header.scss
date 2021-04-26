@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Charmonman');
+
+
+.page-header {
+    width: 100vw;
+    height: 100px !important;
+    background-color: #4a4a49;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    
+}
+
+h1{
+  font-family: Charmonman;
+  margin-left: 50px;
+  font-size: 50px;
+}
+
+#firstlogo{
+  font-weight:100;
+  color: white;
+}
+
+#secondlogo{
+  color:#E58A20; 
+  font-weight: 700;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: $main-font;
+}
+
+ul.menu-list li {
+    display: inline;
+    padding-right: 65px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.pagelink {
+    color: #E58A20;
+}
+
