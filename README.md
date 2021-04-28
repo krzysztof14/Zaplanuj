@@ -1,4 +1,7 @@
 
+https://krzysztof14.github.io/Zaplanuj/
+
+
 ## How to start
 To start development follow this instruction:
 
@@ -33,6 +36,3 @@ Avaliable commends for you to type in console:
 | - gulpfile.js
 ```
 
-***where:***
-`distribution` - is used to contain optimized files for the production site.
-`development`  - is used to contain source code.
